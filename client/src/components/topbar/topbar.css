@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+
+.top {
+  width: 100%;
+  height: 60px;
+  /* background-color: rgb(39, 38, 38); */
+  background-color: #1f1f1f;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999;
+  color: rgb(218, 214, 214);
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topIcon {
+  font-size: 40px;
+  margin-right: 10px;
+  margin-top: 10px;
+  /* color: #444; */
+  /* color: rgb(6, 143, 97); */
+  color: rgb(179, 174, 174);
+  cursor: pointer;
+  font-family: 'Corinthia', cursive;
+}
+
+.topIconSm{
+  /* color: rgb(5, 177, 119); */
+  color: rgb(5, 189, 189);
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  /* color: #666; */
+  /* color: rgb(179, 174, 174); */
+  /* color: rgb(5, 177, 119); */
+  color: rgb(5, 189, 189);
+  cursor: pointer;
+  margin-left: 15px;
+}

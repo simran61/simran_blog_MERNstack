@@ -1,0 +1,107 @@
+.singlePost {
+  flex: 9;
+  padding: 0 1.5rem;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  color: rgb(199, 198, 198);
+  /* color: rgb(5, 189, 189); */
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 20px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+  /* color: rgb(5, 189, 189); */
+  /* color: rgb(15, 167, 15); */
+}
+
+.singlePostIcon:last-child {
+  color: rgb(218, 69, 69);
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: "Varela Round", sans-serif;
+  /* color: #b39656; */
+  color: rgb(5, 189, 189);
+}
+
+.singlePostDesc {
+  color: rgb(197, 195, 195);
+  font-size: 18px;
+  line-height: 25px;
+  /* padding-right: 1rem; */
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+.singlePostButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}

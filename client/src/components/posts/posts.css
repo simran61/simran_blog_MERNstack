@@ -1,0 +1,9 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 30px;
+    /* background-color: rgb(49, 49, 49); */
+    /* background-color: rgb(47, 47, 47); */
+}
